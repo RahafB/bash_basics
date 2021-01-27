@@ -14,3 +14,17 @@ fi
 
 # exercise: write a script that prints whether it is 
 # morning or not
+
+currentTime=$(date +"%H")
+morningStartHour=6
+morningEndHour=12
+
+echo ""
+echo  "Current time: " $(date +"%r")
+
+if [ $currentTime -lt $morningEndHour ] && [ $currentTime -ge $morningStartHour ] ; then
+	echo "Good morning, master!"
+else
+	echo "Greetings, slacker!"
+	echo "It is not morning."
+fi
