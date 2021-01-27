@@ -15,6 +15,7 @@ fi
 # exercise: write a script that prints whether it is 
 # morning or not
 
+
 now=$(date +"%H")
 morningStartHour=6
 morningEndHour=12
