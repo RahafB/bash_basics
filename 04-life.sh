@@ -15,6 +15,7 @@ fi
 # exercise: write a script that prints whether it is 
 # morning or not
 
+
 now=$(date +"%H")
 morningStartHour=6
 morningEndHour=12
@@ -22,6 +23,7 @@ morningEndHour=12
 echo ""
 echo  "Current time: " $(date +"%r")
 if [ $now -lt $morningEndHour ] && [ $now -ge $morningStartHour ] ; then
+
 	echo "Good morning, master!"
 else
 	echo "Greetings, slacker!"
