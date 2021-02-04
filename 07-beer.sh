@@ -23,19 +23,23 @@ done
 
 # exercise: implement another counting song (such as 12 days of Christmas) 
 # using loops and if statements.
-echo "*hic* Oh, hey"
-echo "I'm drunk because you made me drink too much"
-echo "Thanks, butthole >:("
-echo "*hic* oh, uuhh, where was I? Oh yeah!"
-echo "How many Alka-Seltzer tablets can I take? I need enough to counteract all the beer you made me drink"
-read count2
 
-if [$count2 -ge $count1]; then
-	echo "Hey wait a minute, that wasn't enough *hic* alka-seltzer! I'm still drunk"
-elif [$count1 -ge $count2]; then
-	echo "That was too much alka-seltzer, but at least I'm not drunk..."
-else
-	echo "Aahh, perfect amount of alka-seltzer! Thanks buddy!"
-fi
+echo "Howdy! You made me drink a butt-ton of beer, and I'd like to do the same with Alka-seltzer!"
+echo "How much Alka-seltzer should I take?"
+read countA
 
-echo "That's the end of the program"
+while [ $countA -ge 0 ]; do
+  if [ $countA -ge 2 ]; then
+      echo "Just took an Alka-Seltzer and passed another one down, $countA left"
+  elif [ $countA -eq 1 ]; then
+      echo "Just took one Alka-Seltzer but no more to pass down, $countA left"
+  else
+      echo "no more bottles of beer on the wall"
+  fi
+  
+  # the following statement is equivalent to: let "count=count-1"
+  ((countA = countA - 1))
+
+done
+
+echo "Whew, I feel less drunk now, thanks!"
