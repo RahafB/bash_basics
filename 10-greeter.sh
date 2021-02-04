@@ -9,9 +9,9 @@ function weekend_greet
 
 function weekday_greet
 {
-   echo "Hope you are working hard, ${1}! Your lucky number today is "
-   # generate a random number
-   echo $RANDOM
+   echo "Hope you are working hard, ${1}! Today's date is "
+   # show today's date and time
+   date
 }
 
 
