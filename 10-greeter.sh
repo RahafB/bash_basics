@@ -2,14 +2,16 @@
 
 # function in bash
 
-function weekend_greet 
+function weekend_greet
 {
    echo "Enjoy the weekend! ${1}!"
 }
 
 function weekday_greet
 {
-   echo "Hope you are working hard, ${1}!"
+   echo "Hope you are working hard, ${1}! Today's date is "
+   # show today's date and time
+   date
 }
 
 
@@ -24,6 +26,6 @@ else
    weekday_greet $name
 fi
 
-# exercise: Add a second argument to the function 
-# and make it give a greeting based on the new 
+# exercise: Add a second argument to the function
+# and make it give a greeting based on the new
 # argument.
