@@ -9,11 +9,6 @@ echo "$name, could you provide me a filename please?"
  touch $filename.txt
  echo "Thanks, I've created a file with the name $filename"
 
-echo "$name, could you provide me a filename please?"
-read fnam
-touch $fnam.txt
-echo "Thanks, I've created a file with the name $fnam"
-
 # single quotes prevent the expansion of the variable
 echo 'Your name was stored in $name'
 
