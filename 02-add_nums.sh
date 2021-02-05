@@ -13,7 +13,7 @@ echo "The sum is $sum"
 
 # exercise: ask the user for the width and height and present total
 # number of pixels
-echo "**********Second Branch*************"
+echo "+++++++++++Second Branch+++++++++++"
 echo "What is the width of your screen?"
 read width
 echo "What is the height of your screen?"
