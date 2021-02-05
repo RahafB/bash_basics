@@ -1,12 +1,13 @@
 #!/bin/sh
 
-echo "You are happy?"
+TZ=America/Atlanta date
+echo "Is today the weekend (Fri, Sat, Sun)?"
 read answer
 
 if [ "$answer" = "yes" ]; then
-   echo "Smile :)"
+   echo "Today is a weekend"
 else
-   echo "Still Smile :)"
+   echo "Today is not a weekend"
 fi
 
 # here are the other string comparison operators
