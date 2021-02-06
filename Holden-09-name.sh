@@ -2,7 +2,9 @@
 
 # look up ip addresses of various search engines
 
+
 servers="cnn.com"
+
 
 for server in $servers; do
     ping $server
