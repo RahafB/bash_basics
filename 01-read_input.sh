@@ -13,4 +13,4 @@ echo 'Your name was stored in $name'
 
 echo "Please enter a file name:"
 read filename
-touch $filename.txt
+touch $filename
