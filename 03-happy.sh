@@ -1,12 +1,12 @@
 #!/bin/sh
 
-echo "You are happy?"
+echo "What day of the week is today?"
 read answer
 
-if [ "$answer" = "yes" ]; then
-   echo "Smile :)"
+if [ "$answer" = "Saturday" ] || [ "$answer" = "Sunday" ]; then
+   echo "It is the weekend!"
 else
-   echo "Still Smile :)"
+   echo "It's not the weekend :("
 fi
 
 # here are the other string comparison operators
