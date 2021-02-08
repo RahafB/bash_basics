@@ -1,4 +1,4 @@
 #!/bin/bash
 
 echo 'my name is Sedina Husanovic'
-echo 'sedinas branch merge conflict'
+echo 'When was the last time we had a merge conflict'
