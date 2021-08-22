@@ -1,3 +1,3 @@
 #!/bin/bash
-echo "My name is Johnny"
+echo "Hello, my name is Johnny"
 read name
