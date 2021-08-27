@@ -1,14 +1,24 @@
 #!/bin/sh
 
-echo "You are happy?"
-read answer
+#echo "You are happy?"
+#read answer
 
-if [ "$answer" = "yes" ]; then
-   echo "Smile :)"
+#if [ "$answer" = "yes" ]; then
+#   echo "Smile :)"
+#else
+#   echo "Still Smile :)"
+#fi
+day=$(date +"%a")
+echo "Todays date is "$day
+
+daynum=$(date +"%u")
+if [ "$daynum" = "6" ]; then
+  echo "Its the weekend"
+elif [ "$daynum" = "7" ]; then
+   echo "Its the weekend"
 else
-   echo "Still Smile :)"
+    echo "Its the weekday"
 fi
-
 # here are the other string comparison operators
 # != , -n (not an empty string) , -z (an empty string)
 
