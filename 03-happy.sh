@@ -9,7 +9,7 @@
 #   echo "Still Smile :)"
 #fi
 day=$(date +"%a")
-echo "Today is "$day
+echo "Todays date is "$day
 
 daynum=$(date +"%u")
 if [ "$daynum" = "6" ]; then
@@ -19,7 +19,6 @@ elif [ "$daynum" = "7" ]; then
 else
   echo "Its the weekday"
 fi
-
 # here are the other string comparison operators
 # != , -n (not an empty string) , -z (an empty string)
 
