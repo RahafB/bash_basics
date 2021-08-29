@@ -1,8 +1,8 @@
 #!/bin/sh
 
-echo "Enter the heigth"
+echo "Enter a number for the heigth"
 read first
-echo "Enter width"
+echo "Enter a number for the width"
 read second
 
 sum=$(( first*second ))
