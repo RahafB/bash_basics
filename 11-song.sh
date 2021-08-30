@@ -42,6 +42,7 @@
 
 # exercise: Change the input question and case 
 # statement to another theme. 
+<<<<<<< HEAD
 
 while [ true  ]; do
 
@@ -64,3 +65,44 @@ while [ true  ]; do
    esac
 
    done
+=======
+while [ true  ]; do
+
+   read -p "What month is it? (x to end): " month
+
+   case $month in 
+
+      january|January)
+         echo "Happy New Year!"
+         ;;
+      february|February)
+         echo "Happy Valentine's Day!"
+         ;;
+      march|March)
+         echo "Happy St. Patrick's Day"
+         ;;
+      april|April)
+         echo "Happy... April Fools Day?"
+         ;;
+      may|May)
+         echo "Happy Mother's Day!"
+         ;;
+      june|June)
+         echo "Happy Juneteenth!"
+         ;;
+      july|July)
+         echo "Happy Independence Day!"
+         ;;
+      august|August)
+         echo "Happy... start of school :("
+         ;;
+      x)
+         exit 0
+         ;;
+      *)
+         echo "Happy other months lol"
+         ;;
+esac
+
+done
+>>>>>>> 8980d7834bbc5ceace8240a9953542429d08fe2e
