@@ -42,7 +42,6 @@
 
 # exercise: Change the input question and case 
 # statement to another theme. 
-<<<<<<< HEAD
 
 while [ true  ]; do
 
@@ -60,12 +59,12 @@ while [ true  ]; do
          ;;
       *)
          echo "You don't listen do you..."
-         exit 0
+         break
          ;;
    esac
 
    done
-=======
+
 while [ true  ]; do
 
    read -p "What month is it? (x to end): " month
@@ -105,4 +104,3 @@ while [ true  ]; do
 esac
 
 done
->>>>>>> 8980d7834bbc5ceace8240a9953542429d08fe2e
