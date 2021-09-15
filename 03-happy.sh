@@ -5,10 +5,10 @@ read answer
 
 if [ "$answer" = "yes" ]; then
    echo "Smile :)"
-   echo -n "Smiles Forever :D"
+   echo $RANDOM
 else
    echo "Still Smile :)"
-   echo $RANDOM
+   echo -n "Forever Smiling"
 fi
 
 # here are the other string comparison operators
