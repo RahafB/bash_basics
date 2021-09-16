@@ -47,11 +47,14 @@
 while [ true ]; do
 
    # you can show a prompt with the read command
+
    read -p "A G I L E? (q to end) > " note
+
 
 case $note in
    # each case matches a pattern
    a|A)
+
       echo "Advanced"
       ;;   
    g|G)
@@ -69,6 +72,7 @@ case $note in
 
    q)
       echo "Wrong Agile....."
+
       exit 0
       ;;
    *) 
