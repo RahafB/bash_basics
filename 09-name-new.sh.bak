@@ -2,10 +2,18 @@
 
 # look up ip addresses of various search engines
 
+<<<<<<< HEAD
 servers="www.youtube.com twitch.tv amazon.com twitter.com"
 
 for server in $servers; do
     ping -n 1 $server
+	traceroute
+=======
+servers="youtube.com twitch.com amazon.com twitter.com"
+
+for server in $servers; do
+    tracert -d $server
+>>>>>>> thePast
     echo "----------------------------"
 done
 

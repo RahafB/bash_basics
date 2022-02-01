@@ -2,6 +2,7 @@
 
 # look up ip addresses of various search engines
 
+
 servers="www.youtube.com twitch.tv amazon.com twitter.com"
 
 for server in $servers; do
