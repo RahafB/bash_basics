@@ -7,7 +7,12 @@ read second
 echo "Enter your third number"
 read third
 
-sum=$(( first+second+third ))
+# added code lines
+echo "Enter your fourth number"
+read fourth
+
+# edited sum
+sum=$(( first+second+third+fourth ))
 
 echo "The sum is $sum"
 
