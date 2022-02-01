@@ -7,7 +7,6 @@ servers="www.youtube.com twitch.tv amazon.com twitter.com"
 
 for server in $servers; do
     ping -n 1 $server
-	traceroute
     echo "----------------------------"
 done
 
