@@ -2,7 +2,7 @@
 
 # look up ip addresses of various search engines
 
-servers="facebook.com ggc.edu github.com reddit.com"
+servers="facebook.com ggc.edu reddit.com amazon.com"
 
 for server in $servers; do
     ping $server
