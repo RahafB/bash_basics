@@ -1,10 +1,11 @@
 #/bin/sh
 
-# look up ip addresses of various search engines
+# look up ip addresses for, and ping, various social media sites
 
-servers="yahoo.com google.com dogpile.com wolframalpha.com"
+servers="facebook.com twitter.com instagram.com linkedin.com"
 
 for server in $servers; do
+    ping $server
     nslookup $server
     echo "----------------------------"
 done
