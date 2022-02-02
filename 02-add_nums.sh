@@ -22,3 +22,4 @@ read height
 area=$(( width*height))
 
 echo "The area of your width and height is $area"
+
