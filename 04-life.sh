@@ -1,12 +1,10 @@
 
-echo "What is the meaning of life?"
-read meaning
-
-
-if [ "$meaning" -eq 42 ]; then
-   echo "Yes!, That is the meaning of life!"
+h=$(date +"%H")
+if [ $h -gt 6 -a $h -le 12 ]
+then
+echo it is morning
 else
-   echo "Awww... You don't know the meaning of life"
+echo it is not morning
 fi
 
 #  here are some other arithemetic comparison operators

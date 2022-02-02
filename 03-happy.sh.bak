@@ -1,12 +1,7 @@
 #!/bin/sh
-
-echo "You are happy?"
-read answer
-
-if [ "$answer" = "yes" ]; then
-   echo "Smile :)"
-else
-   echo "Still Smile :)"
+if [[ $(date +%u) -gt 5 ]]; then
+    echo 'It is the weekend'
+    exit
 fi
 
 # here are the other string comparison operators
@@ -14,3 +9,5 @@ fi
 
 # exercise: write a script that prints whether today is
 # the weekend or not
+
+
