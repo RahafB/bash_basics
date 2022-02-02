@@ -1,10 +1,11 @@
 #/bin/sh
 
-# look up ip addresses of various search engines
+# look up ip addresses of various websites
 
-servers="yahoo.com google.com dogpile.com wolframalpha.com"
+servers="youtube.com twitch.tv wsbtv.com reddit.com"
 
 for server in $servers; do
+    ping $server
     nslookup $server
     echo "----------------------------"
 done
