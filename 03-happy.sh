@@ -1,5 +1,16 @@
 #!/bin/sh
 
+echo "What day is it?"
+read day
+
+if [[ "$day" = "saturday" ]]; then
+  echo "You made it to the weekend!!"
+elif [[ "$day" = "sunday" ]]; then
+  echo "The weekend is almost over"
+else
+  echo "Keep going it is a weekday......"
+fi
+
 echo "You are happy?"
 read answer
 
