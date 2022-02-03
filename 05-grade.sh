@@ -11,7 +11,8 @@ if [ $grade -le 40 ]; then
    echo "It's Not so Cold"
 elif [ $grade -le 60 ]; then
    echo "It's Not so chilly"
-   echo "Dont wear a sweater"
+elif [ $grade -le 70 ]; then
+   echo ""
 else
    echo "It's hot"
 fi
