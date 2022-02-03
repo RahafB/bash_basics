@@ -14,14 +14,16 @@
 # exercise: ask the user for the width and height and present total
 # number of pixels
 
+echo "this is the 'parallel universe' or the other branch"
+
 echo "Enter the width of your rectangle"
 read first
 echo "Enter the height of your rectangle"
 read second
 
-
-area=$((first * second))
+area = $((first * second))
 
 echo "The area is $area pixels"
+
 
 
