@@ -30,7 +30,7 @@ while [ $days -ge 0 ]; do
       echo "on the last day of Christmas, my true love gave to me"
       echo "presents under the tree"
   else
-      echo "Merry Christmas"
+      echo "Merry Christmas to all and to all a good night"
   fi
  
   # the following statement is equivalent to: let "days=days-1"
