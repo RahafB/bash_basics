@@ -41,7 +41,8 @@ read daysss
   # the following statement is equivalent to: let "count=count-1"
   ((daysss = daysss - 1))
 done
-
+done
+done
 
 
 # exercise: implement another counting song (such as 12 days of Christmas) 
