@@ -29,7 +29,7 @@ while [ $days -ge 0 ]; do
       echo "something under a tree"
   elif [ $days -eq 1 ]; then
       echo "on the last day of Christmas, my true love gave to me"
-      echo "presents under the tree"
+      echo "presents under the "
   else
       echo "Merry Christmas"
 	  echo "Merry Christmas"

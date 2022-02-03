@@ -32,7 +32,7 @@ while [ $days -ge 0 ]; do
       echo "presents under the tree"
   else
       echo "Merry Christmas"
-	  
+	  echo "Merry Christmas"
 	 
   fi
  
