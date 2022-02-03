@@ -22,7 +22,7 @@ done
 
 echo "12 days until Christmas?"
 read days
-read days
+
 while [ $days -ge 0 ]; do
   if [ $days -ge 2 ]; then
       echo "$days day of Christmas, my true love gave to me."
@@ -32,7 +32,7 @@ while [ $days -ge 0 ]; do
       echo "presents under the tree"
   else
       echo "Merry Christmas"
-	  echo "Merry Christmas"
+	 
 	 
   fi
  
