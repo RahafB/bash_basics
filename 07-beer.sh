@@ -22,7 +22,19 @@ done
 
 echo "12 days until Christmas?"
 read days
-
+while [ $days -ge 0 ]; do
+  if [ $days -ge 2 ]; then
+      echo "$days day of Christmas, my true love gave to me."
+      echo "something under a tree"
+ 
+  else
+      echo "Merry Christmas"
+	 
+	 
+  fi
+ 
+  # the following statement is equivalent to: let "days=days-1"
+  ((days = days - 1))
 
 done
 
