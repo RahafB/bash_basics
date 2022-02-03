@@ -36,6 +36,10 @@ read daysss
 	   echo "GIVE "
 	    echo "ME "
 		 echo "ERROR "
+		  echo "ME "
+		 echo "ERROR "
+		  echo "ME "
+		 echo "ERROR "
   fi
   
   # the following statement is equivalent to: let "count=count-1"
@@ -44,6 +48,7 @@ done
 done
 done
 done
+
 
 
 # exercise: implement another counting song (such as 12 days of Christmas) 

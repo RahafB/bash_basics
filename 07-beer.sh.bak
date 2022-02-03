@@ -43,6 +43,7 @@ read daysss
 done
 done
 done
+done
 
 
 # exercise: implement another counting song (such as 12 days of Christmas) 
