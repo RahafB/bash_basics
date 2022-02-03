@@ -31,10 +31,12 @@ while [ $days -ge 0 ]; do
       echo "presents under the tree"
   else
       echo "Merry Christmas"
+
   fi
  
   # the following statement is equivalent to: let "days=days-1"
-  ((days = days - 1))
+  (days = days - 1)
+
 done
 
 # exercise: implement another counting song (such as 12 days of Christmas) 
