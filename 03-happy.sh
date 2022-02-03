@@ -13,10 +13,10 @@ fi
 var= date +"%A"
 echo "$var"
 
-if [ "$var" = " Wednesday" ]; then
-   echo "hmmmm gooood yess you are happy"
+if [ "$var" = "Saturday" ]; then
+   echo "weekend
 else
-   echo "Still Smile c:"
+   echo "not weekedn
 fi
 
 # exercise: write a script that prints whether today is
