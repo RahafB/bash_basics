@@ -21,9 +21,10 @@ while [ $count -ge 0 ]; do
 echo "How many days until Christmas?????????????????????????????"
 
 
+
 while [ $daysss -ge 0 ]; do
   if [ $daysss -ge 2 ]; then
-      echo " $daysss day of Christmas, my true love gave to me...."
+      echo "on the $daysss day of Christmas, my true love gave to me...."
       echo "something something and a pear tree"
   elif [ $daysss -eq 1 ]; then
       echo "on the last day of Christmas, my true love gave to me"
@@ -34,18 +35,10 @@ while [ $daysss -ge 0 ]; do
 	   echo "GIVE "
 	    echo "ME "
 		 echo "ERROR "
-		 echo "my back hurts"
-		 echo "i need error" 
-		 echo "hello"
-		 echo "..."
-		  echo "i just want an error so that i can go to sleeeeeepppppp"
-		 
-		 
   fi
   
   # the following statement is equivalent to: let "count=count-1"
   ((daysss = daysss - 1))
-
 
 
 
