@@ -22,14 +22,15 @@ done
 
 echo "12 days until Christmas?"
 read days
-
 while [ $days -ge 0 ]; do
   if [ $days -ge 2 ]; then
       echo "$days day of Christmas, my true love gave to me."
       echo "something under a tree"
+
   elif [ $days -eq 1 ]; then
       echo "on the last day of Christmas, my true love gave to me"
       echo "presents under the "
+
   else
       echo "Merry Christmas"
 	 
@@ -38,6 +39,7 @@ while [ $days -ge 0 ]; do
  
   # the following statement is equivalent to: let "days=days-1"
   ((days = days - 1))
+
 done
 
 # exercise: implement another counting song (such as 12 days of Christmas) 
