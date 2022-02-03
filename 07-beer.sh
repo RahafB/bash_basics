@@ -1,6 +1,6 @@
 #!/bin/sh
 
-echo "Let's sing a beer song"
+echo "Let's sing a beer song for Agustin"
 echo "How many bottles?"
 read count
 
