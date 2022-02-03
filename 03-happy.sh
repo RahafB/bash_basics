@@ -15,13 +15,8 @@ fi
 # exercise: write a script that prints whether today is
 # the weekend or not
 # +%u <-- grabs the days and numbers them from 1-7. 6-7 is is Sat and Sun
-echo "Is it the weekend!?"
-
-
 if [[ $(date +%u) -gt 5 ]]; then 
-    echo "Yay! It is the weekend!"; 
-
+    echo "It is the weekend!"; 
 else
-   echo "Not the weekend yet :("
-   
+   echo "It is not the weekend, yet."
 fi
