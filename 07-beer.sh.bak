@@ -26,11 +26,13 @@ while [ $days -ge 0 ]; do
   if [ $days -ge 2 ]; then
       echo "$days day of Christmas, my true love gave to me."
       echo "something under a tree"
-
+<<<<<<< HEAD
   elif [ $days -eq 1 ]; then
       echo "on the last day of Christmas, my true love gave to me"
       echo "presents under the "
-
+=======
+ 
+>>>>>>> songedit
   else
       echo "Merry Christmas"
 	 
