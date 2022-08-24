@@ -14,3 +14,12 @@ fi
 
 # exercise: write a script that prints whether today is
 # the weekend or not
+
+echo "Is a weekend or not?"
+read answer
+
+if [ "$answer" = "yes" ]; then
+   echo "Good job"
+else
+   echo "Just hold on a bit longer"
+fi
