@@ -20,5 +20,4 @@ servers="ggc.edu cnn.com facebook.com github.com"
 
 for server in $servers; do
         ping -c2 $server
-        echo "-------------------------"
 done
