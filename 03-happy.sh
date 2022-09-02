@@ -1,10 +1,12 @@
 #!/bin/sh
 
-echo "You are happy?"
+echo "You are happy? yes, no, pshh"
 read answer
 
 if [ "$answer" = "yes" ]; then
    echo "hmmmm gooood yess you are happy"
+elif [ "$answer" = "pshh" ]; then
+   echo "You are not having it"
 else
    echo "Still Smile c:"
 fi
