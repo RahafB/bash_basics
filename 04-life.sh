@@ -15,11 +15,13 @@ fi
 # exercise: write a script that prints whether it is 
 # morning or not
 
-echo "Is it the weekend?"
+echo "Is it Morning?"
+
 read answer
 
 if [ "$answer" = "yes" ]; then
    echo "Good Morning!"
 else
    echo "Oh well"
+
 fi
