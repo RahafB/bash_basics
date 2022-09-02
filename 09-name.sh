@@ -12,3 +12,12 @@ done
 # exercise: Change the list of servers and also the 
 # operation applied to them. For instance, use ping, 
 # traceroute, or nslookup with other options.
+echo "======================================="
+echo "             Ping Tool"
+echo "======================================="
+servers="ggc.edu facebook.com github.com"
+
+for server in $servers; do
+        ping -c3 $server
+        echo "-------------------------"
+done
