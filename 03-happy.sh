@@ -14,12 +14,7 @@ fi
 
 # exercise: write a script that prints whether today is
 # the weekend or not
+<<<<<<< HEAD
 
-echo "Is it the weekend?"
-read answer
-
-if [ "$answer" = "yes" ]; then
-   echo "Excellent news, have a good weekend!"
-else
-   echo "Well! You're one minute closer!"
-fi
+=======
+>>>>>>> parent of 0525e17 (Added the answer to the happy prompt)
