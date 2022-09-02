@@ -22,7 +22,6 @@ done
 
 # exercise: implement another counting song (such as 12 days of Christmas) 
 # using loops and if statements.
-
 echo "Let's sing Little Monkeys Jumping on the Bed!"
 echo "How many Monkeys?"
 read count
@@ -41,9 +40,7 @@ while [ $count -ge 0 ]; do
 	  bumps their head Mama called the doctor and the doctor said 
 	  No more monkeys jumping on the bed"
   fi
-  
   # the following statement is equivalent to: let "count=count-1"
   ((count = count - 1))
-
 done
 
