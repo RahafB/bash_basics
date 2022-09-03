@@ -15,7 +15,7 @@ else
    echo "Time to work on some extra credit assignments"
 fi
 
-# exercise: write a script (that utilizes weather-util) 
+# exercise: write a script (that utilizes weather-util)
 # that prints "it's cold" if the temperature is < 40
-# it's chilly if < 60, it's okay if < 70 and, it's hot for 
+# it's chilly if < 60, it's okay if < 70 and, it's hot for
 # everything else
