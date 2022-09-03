@@ -20,5 +20,21 @@ while [ $count -ge 0 ]; do
 
 done
 
-# exercise: implement another counting song (such as 12 days of Christmas) 
-# using loops and if statements.
+echo "Let's sing a coca cola song"
+echo "How many cans?"
+read count
+
+while [ $count -ge 0 ]; do
+  if [ $count -ge 2 ]; then
+      echo "$count cans of coke on the wall, $count cans of coke"
+      echo "Take one down pass it around"
+  elif [ $count -eq 1 ]; then
+      echo "$count cans of coke on the wall, $count cans of coke"
+      echo "Take one down pass it around"
+  else
+      echo "no more cans of coke on the wall"
+  fi
+  
+  ((count = count - 1))
+
+done
