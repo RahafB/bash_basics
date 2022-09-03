@@ -6,3 +6,4 @@ read name
 touch $name.txt
 
 /bin/bash
+
