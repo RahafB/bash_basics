@@ -9,6 +9,15 @@ else
    echo "Still Smile c:"
 fi
 
+echo "Is it currently the weekend?"
+read answer
+
+if [ "$answer" = "yes" ]; then
+   echo "Time to party!"
+else
+   echo "That sucks!"
+fi
+
 # here are the other string comparison operators
 # != , -n (not an empty string) , -z (an empty string)
 
