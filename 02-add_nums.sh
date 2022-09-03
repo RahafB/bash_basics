@@ -16,9 +16,11 @@ echo "The sum is $sum"
 
 echo "Enter height of screen"
 read height
+
 echo "Enter width of screen"
 read width
 
 numPixelsScreen=$(( height*width ))
+
 
 echo "Total is $numPixelsScreen"
