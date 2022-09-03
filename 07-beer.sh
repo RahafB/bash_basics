@@ -20,5 +20,27 @@ while [ $count -ge 0 ]; do
 
 done
 
-# exercise: implement another counting song (such as 12 days of Christmas) 
-# using loops and if statements.
+echo " "
+echo "Let's sing a apple juice song"
+echo "How many apples?"
+
+read count
+
+while [ $count -ge 0 ]; do
+
+  if [ $count -ge 2 ]; then
+      echo "$count bottles of apple juice on the wall, $count bottles of apple juice"
+      echo "Take one down pass it around"
+
+  elif [ $count -eq 1 ]; then
+      echo "$count bottle of apple juice on the wall, $count bottles of apple juice"
+      echo "Take one down pass it around"
+
+  else
+      echo "no more bottles of apple juice on the wall"
+  fi
+  
+  # the following statement is equivalent to: let "count=count-1"
+  ((count = count - 1))
+
+done
