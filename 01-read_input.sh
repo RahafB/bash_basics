@@ -13,3 +13,8 @@ echo 'Your name was stored in $name'
 echo "Enter in the name of your file you want to create"
 read fileName
 echo "$fileName was created"
+#exercise: write a script that asks the user for a
+#movie
+echo "Enter in a movie you look"
+read movie
+echo "$movie that's a good one!"
