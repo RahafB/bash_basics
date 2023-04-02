@@ -1,0 +1,10 @@
+#!/bin/bash
+
+echo "Hello! My name is Cobi Miller!"
+
+# exercise: write a script that asks the user for a 
+# filename and create an empty file named after it
+
+echo "Give me a file name."
+read filename
+touch $filename.txt
