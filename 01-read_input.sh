@@ -16,3 +16,4 @@ touch $newFile.txt
 cat $newFile.txt
 echo 'File name was stored in $newFile'
 echo "$newFile, has been created"
+echo "New statement used to cause a conflict between the main branch and the parallel branch"
