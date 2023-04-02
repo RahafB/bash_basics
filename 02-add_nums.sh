@@ -1,14 +1,14 @@
 #!/bin/sh
 
 echo
-echo "Enter your desired width"
+echo "Enter your preferred width"
 read first
-echo "Enter your desired height"
+echo "Enter your preferred height"
 read second
 
-resolution=$(( first*second ))
+pixels=$(( first*second ))
 
-echo "The total number of pixels is $resolution"
+echo "The total number of pixels equates to $pixels"
 
 # exercise: ask the user for the width and height and present total
 # number of pixels
