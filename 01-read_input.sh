@@ -15,6 +15,8 @@ echo 'Your name was stored in $name'
 # Asking the user for a filename.
 echo "Enter a filename:"
 read filename
+ 
+
 
 # creating an enmpty file with that name
 touch $filename
@@ -23,3 +25,13 @@ touch $filename
 
 echo "Created an empty file name $filename
 
+# Asking the user for a fileName for the second time
+echo "Please enter a fileName: "
+read fileName
+
+#create an empty file with that name
+touch $fileName
+
+#print a confimation message
+echo "This is an empty file name $fileName that I created for the second 
+time. "
