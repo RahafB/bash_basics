@@ -9,6 +9,9 @@ else
    echo "Awww... You don't know the meaning of life"
 fi
 
+echo "What is soccer hard?"
+read answer
+echp "$answer well it doesn't help either!"
 #  here are some other arithemetic comparison operators
 # -eq -ne -gt -ge -lt -le
 
