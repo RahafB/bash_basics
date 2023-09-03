@@ -12,8 +12,8 @@ echo 'Your name was stored in $name'
 # filename and create an empty file named after it
 echo "Please enter a filename: "
 
-read filename
 
-touch $filename
+read fname
+touch "$fname
+echo "File '$fname' has been created."
 
-echo "file '$filename' has been created."
