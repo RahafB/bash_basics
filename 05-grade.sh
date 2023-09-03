@@ -20,7 +20,7 @@ fi
 # it's chilly if < 60, it's okay if < 70 and, it's hot for 
 # everything else
 
-echo "What is the temperature near you?"
+echo "Is your temperature cold, chilly, okay, or hot?"
 echo "Please give a numeric answer"
 read temperature
 
