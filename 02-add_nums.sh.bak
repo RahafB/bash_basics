@@ -4,6 +4,12 @@ echo "Enter your first number"
 read first
 echo "Enter your second number"
 read second
+<<<<<<< HEAD
+
+
+
+sum=$(( first+second))
+=======
 echo "Enter your third number"
 read third
 echo "Enter your fourth number"
