@@ -2,41 +2,36 @@
 
 
 while [ true ]; do
+    # you can show a prompt with the read command
+    read -p "Enter a color (q to end) > " color
 
-   # you can show a prompt with the read command
-   read -p "Do rae mi fa so la ti do? (q to end) > " note
-
-case $note in
-   # each case matches a pattern
-   do|Do)
-      echo "Doe a deer a female deer"
-      ;;   
-   rae|Rae)
-      echo "Ray a drop of golden sun"
-      ;;
-   mi|Mi)
-      echo "Me a name a call myself"
-      ;;
-   fa|Fa)
-      echo "Far a long long way to run"
-      ;;
-   so|So)
-      echo "So a note that follows fa"
-      ;;
-   la|La)
-      echo "La a note that follow so"
-      ;;
-   ti|ta)
-      echo "Tea I drink with jam and bread"
-      ;;
-   q)
-      echo "Hope you enjoyed the sound of music"
-      exit 0
-      ;;
-   *) 
-      echo "Not a note"
-      ;;
-esac
+    case $color in
+        red|Red)
+            echo "Red is the color of love and passion."
+            ;;
+        blue|Blue)
+            echo "Blue is the color of the sky and the ocean."
+            ;;
+        green|Green)
+            echo "Green represents nature and growth."
+            ;;
+        yellow|Yellow)
+            echo "Yellow is associated with happiness and sunshine."
+            ;;
+        purple|Purple)
+            echo "Purple is often associated with royalty and luxury."
+            ;;
+        orange|Orange)
+            echo "Orange is a vibrant and energetic color."
+            ;;
+        q)
+            echo "Hope you enjoyed learning about colors."
+            exit 0
+            ;;
+        *)
+            echo "Not a recognized color."
+            ;;
+    esac
 
 done
 
