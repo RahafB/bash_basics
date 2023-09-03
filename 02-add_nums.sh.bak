@@ -6,7 +6,7 @@ echo "Enter your second number"
 read second
 echo "Enter your third number"
 read third
-echo "Enter your fourth number please"
+echo "Enter your fourth"
 read fourth
 
 sum=$(( first+second+third+fourth ))
