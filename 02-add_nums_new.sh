@@ -8,3 +8,4 @@ read h
 product=$(( w*h ))
 
 echo "The total number of pixels is $product"
+
