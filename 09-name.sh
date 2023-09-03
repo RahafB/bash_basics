@@ -5,7 +5,7 @@
 servers="google.com facebook.com twitter.com instagram.com"
 
 for server in $servers; do
-    nslookup  $server
+    traceroute $server
     echo "----------------------------"
 done
 
