@@ -4,13 +4,22 @@ echo "Enter your first number"
 read first
 echo "Enter your second number"
 read second
+<<<<<<< HEAD
+
+
+
+sum=$(( first+second))
+=======
 echo "Enter your third number"
 read third
 echo "Enter your fourth number"
 read fourth
+echo "Enter your fifth number please"
+read fifth
 
 
-sum=$(( first+second+third+fourth))
+sum=$(( first+second+third+fourth+fifth))
+>>>>>>> parallel
 
 echo "The sum is $sum"
 
