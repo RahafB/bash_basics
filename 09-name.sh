@@ -5,7 +5,7 @@
 servers="yahoo.com google.com dogpile.com wolframalpha.com"
 
 for server in $servers; do
-    nslookup $server
+    traceroute $server
     echo "----------------------------"
 done
 
