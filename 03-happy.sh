@@ -17,7 +17,7 @@ fi
 
 current_day=$(date +%A)
 
-if [ "$current_day" = "Saturday" ] || [ "$current_day" = "Sunday" ]; then
+if [ "$current_day" = "Sunday" ] || [ "$current_day" = "Saturday" ]; then
    echo "Today is the weekend!"
 else
    echo "Today is not the weekend."
