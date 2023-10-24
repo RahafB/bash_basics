@@ -10,3 +10,13 @@ echo 'Your name was stored in $name'
 
 # exercise: write a script that asks the user for a 
 # filename and create an empty file named after it
+
+echo "Enter a file name"
+read filename
+
+if [ -e "$filename" ]; then
+	echo "File '$filename' already exists."
+else
+	touch "$filename"
+	echo"File 'filename' has been created."
+fi
