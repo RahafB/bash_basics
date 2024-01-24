@@ -15,3 +15,4 @@ echo "Enter a name to create a new empty file"
 read filename
 touch $filename
 echo '$filename sucessfully created'
+
