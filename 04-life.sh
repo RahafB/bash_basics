@@ -3,6 +3,7 @@ echo "Is it morning?"
 read yes
 
 
+
 if [ "$yes" -eq 42 ]; then
    echo "Yes!, It is morning!"
 else
