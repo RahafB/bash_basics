@@ -1,12 +1,13 @@
 
-echo "What is the meaning of life?"
-read meaning
+echo "Is it morning?"
+read yes
 
 
-if [ "$meaning" -eq 42 ]; then
-   echo "Yes!, That is the meaning of life!"
+
+if [ "$yes" -eq 42 ]; then
+   echo "Yes!, It is morning!"
 else
-   echo "Awww... You don't know the meaning of life"
+   echo "Awww... It's not morning"
 fi
 
 #  here are some other arithemetic comparison operators
