@@ -1,4 +1,3 @@
-User
 #!/bin/sh
 
 echo "Let's sing a Duck song"
@@ -14,14 +13,16 @@ while [ $count -ge 0 ]; do
   echo "The little duck said: Quack, quack, quack, quack"
 
   if [ $count -ge $ducks ]; then
-      echo "And $count little ducks came back"
+      echo "And $count little cats came back"
   elif [ $count -ge 2 ]; then
-      echo "And only $count little ducks came back"
+      echo "And only $count little cats came back"
   elif [ $count -eq 1 ]; then
-      echo "And only $count little duck came back"
+      echo "And only $count little cat came back"
   else
-      echo "And then no more little ducks came back"
+      echo "And then no more little cats came back"
   fi
+
+  # the following statement is equivalent to: let "count=count-1"
 
   ((count = count - 1))
 
