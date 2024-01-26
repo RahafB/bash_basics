@@ -1,24 +1,28 @@
+User
 #!/bin/sh
 
-echo "Let's sing a beer song"
-echo "How many bottles?"
-read count
+echo "Let's sing a Duck song"
+echo "How many ducks?"
+read ducks
+
+count=$ducks
 
 while [ $count -ge 0 ]; do
-  if [ $count -ge 2 ]; then
-      echo "$count bottles of beer on the wall, $count bottles of beer"
-      echo "Take one down pass it around"
+  echo ""
+  echo "$ducks little ducks went swimming one day"
+  echo "Over the hills and far away"
+  echo "The little duck said: Quack, quack, quack, quack"
+
+  if [ $count -ge $ducks ]; then
+      echo "And $count little ducks came back"
+  elif [ $count -ge 2 ]; then
+      echo "And only $count little ducks came back"
   elif [ $count -eq 1 ]; then
-      echo "$count bottle of beer on the wall, $count bottles of beer"
-      echo "Take one down pass it around"
+      echo "And only $count little duck came back"
   else
-      echo "no more bottles of beer on the wall"
+      echo "And then no more little ducks came back"
   fi
-  
-  # the following statement is equivalent to: let "count=count-1"
+
   ((count = count - 1))
 
 done
-
-# exercise: implement another counting song (such as 12 days of Christmas) 
-# using loops and if statements.
