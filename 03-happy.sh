@@ -14,3 +14,15 @@ fi
 
 # exercise: write a script that prints whether today is
 # the weekend or not
+
+# extra line to cause trouble
+
+day=$(date +%A)
+
+day=$(echo "$day" | tr '[:upper:]' '[:lower:]')
+
+if [ "$day" = "saturday" ] || [ "$day" = "sunday" ]; then
+    echo "It's the weekend!"
+else
+    echo "It's not the weekend."
+fi
