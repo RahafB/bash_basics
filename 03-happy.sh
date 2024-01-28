@@ -14,12 +14,12 @@ fi
 
 # exercise: write a script that prints whether today is
 # the weekend or not
-!!
+
 echo "What day is it today?"
 read answer
 
-if [ "$answer" = "saturday" || "$answer" = "sunday" ]; then
-   echo "today is a weekend"
-else
+if [ "$answer" != "saturday" ] || ["$answer" != "sunday" ]; then
    echo "today is not a weekend"
+else
+   echo "today is a weekend"
 fi 
