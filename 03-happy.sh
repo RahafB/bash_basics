@@ -3,7 +3,7 @@
 echo "What day is it today?"
 read answer
 
-if [[ "$answer" != "saturday" ]] && [[ "$answer" != "sunday" ]]; then
+if [[ "$answer" != "saturday" && "$answer" != "sunday" ]]; then
 	echo "It is not the weekend today"
 else
 	echo "Today is the weekend"
