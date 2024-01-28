@@ -19,7 +19,7 @@ dayOfWeek=$(date +%u)
 
 # Check if the day of week is either Saturday (6) or Sunday (7)
 if [ "$dayOfWeek" -eq 6 ] || [ "$dayOfWeek" -eq 7 ]; then
-    echo "Yes, it's the weekend!"
+    echo "Yes, it's the weekend! and i am happy"
 else
-    echo "No, it's not the weekend."
+    echo "No, it's not the weekend, i am not happy"
 fi
