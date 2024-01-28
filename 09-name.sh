@@ -13,9 +13,10 @@ done
 # operation applied to them. For instance, use ping, 
 # traceroute, or nslookup with other options.
 
-servers="youtube.com tetr.io wikipedia.org"
+servers="youtube.com tetr.io wikipedia.org nintendo.com"
 
 for server in $servers; do
-	ping $server
+	traceroute $server
+  ping $server
 	echo "----------------------------"
 done
