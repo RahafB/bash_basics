@@ -17,6 +17,7 @@
 
 echo "Is it bright outside?"
 read light
+
 if [ "$light" == "yes" ]; then
 	echo "It's probably morning"
 else
