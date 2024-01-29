@@ -10,3 +10,9 @@ echo "Hello! My name is Puen Xie"
 
 # exercise: write a script that asks the user for a 
 # filename and create an empty file named after it
+
+echo "HEY FOOL GIMME A FILE NAME"
+read filename
+touch "$filename.txt"
+
+echo "YOU SUCK"
