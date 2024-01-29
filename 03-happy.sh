@@ -23,3 +23,4 @@ if [ "$answer" = "saturday" ] || [ "$answer" = "sunday" ]; then
 else
    echo "today is not a weekend"
 fi
+
