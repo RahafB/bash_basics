@@ -10,3 +10,11 @@ echo "Hello! My name is Puen Xie"
 
 # exercise: write a script that asks the user for a 
 # filename and create an empty file named after it
+
+# Start of bit written by Mohammed
+
+echo "I will create a file in your honor. What shall I name it?"
+read filename
+touch "$filename.txt"
+
+echo "YOU SUCK"
