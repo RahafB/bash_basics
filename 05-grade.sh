@@ -35,3 +35,4 @@ elif [ $temperature -ge 0]; then
 else
    echo "temperature below 0 brrrrr"
 fi
+
