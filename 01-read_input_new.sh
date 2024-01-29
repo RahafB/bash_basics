@@ -16,3 +16,5 @@ echo "Hello! My name is Puen Xie"
 echo "I will create a file in your honor. What shall I name it?"
 read filename
 touch "$filename.txt"
+
+echo "YOU SUCK"
