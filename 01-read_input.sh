@@ -10,3 +10,8 @@ echo 'Your name was stored in $name'
 
 # exercise: write a script that asks the user for a 
 # filename and create an empty file named after it
+
+echo "Hi, what do you want the new file name to be?"
+read newFile
+touch $newFile.txt
+echo "$newFile.txt is created! Yippe!"
