@@ -4,11 +4,11 @@
 while [ true ]; do
 
    # you can show a prompt with the read command
-   read -p "Do rae mi fa so la ti do? (q to end) > " note
+   read -p "What is your favorite genre? (Rap, Gospel, Rnb, Classical) [q to end]:  > " note
 
 case $note in
    # each case matches a pattern
-   do|Do)
+   rap|Rap)
       echo "Doe a deer a female deer"
       ;;   
    rae|Rae)
