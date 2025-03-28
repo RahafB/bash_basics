@@ -21,3 +21,4 @@ if [ "$day" = "0" ] || [ "$day" = "6" ]; then
 else
     echo "It's not the weekend yet "
 fi
+ "Razan"
