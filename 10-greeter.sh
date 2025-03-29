@@ -28,3 +28,4 @@ fi
 # and make it give a greeting based on the new 
 # argument.
 echo "Hello user!"
+echo "Hello from the alternate timeline!"
