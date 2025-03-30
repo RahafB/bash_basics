@@ -4,37 +4,31 @@
 while [ true ]; do
 
    # you can show a prompt with the read command
-   read -p "Do rae mi fa so la ti do? (q to end) > " note
+   read -p "hockey, baseball, football, soccer, or boxing? (q to end) > " sport
 
-case $note in
+case $sport in
    # each case matches a pattern
-   do|Do)
-      echo "Doe a deer a female deer"
+   hockey|Hockey)
+      echo "Wayne Gretzky is the consensus greatest of all time in hockey"
       ;;   
-   rae|Rae)
-      echo "Ray a drop of golden sun"
+   baseball|Baseball)
+      echo "Barry Bonds is controversially but widely considered the greatest of all time in baseball"
       ;;
-   mi|Mi)
-      echo "Me a name a call myself"
+   football|Football)
+      echo "Tom Brady is widely considered the greatest of all time in football"
       ;;
-   fa|Fa)
-      echo "Far a long long way to run"
+   boxing|Boxing)
+      echo "Muhammad Ali is generally seen as the greatest boxer of all time"
       ;;
-   so|So)
-      echo "So a note that follows fa"
-      ;;
-   la|La)
-      echo "La a note that follow so"
-      ;;
-   ti|ta)
-      echo "Tea I drink with jam and bread"
+   soccer|Soccer)
+      echo "The greatest soccer players of all time are considered to be Messi and Ronaldo"
       ;;
    q)
-      echo "Hope you enjoyed the sound of music"
+      echo "Those are the GOATs in their respective sports"
       exit 0
       ;;
    *) 
-      echo "Not a note"
+      echo "Not a listed sport"
       ;;
 esac
 
