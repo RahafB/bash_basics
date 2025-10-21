@@ -27,3 +27,7 @@ fi
 # exercise: Add a second argument to the function 
 # and make it give a greeting based on the new 
 # argument.
+# --- PART2-B: alternate changes by Melanie Castillo ---
+echo "Hello from PART2-B"
+MY_COLOR="pink"
+echo "Preferred color now is: $MY_COLOR"
