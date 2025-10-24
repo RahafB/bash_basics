@@ -1,13 +1,13 @@
 #!/bin/sh
 
-echo "You are happy?"
-read answer
+day=$(date +%A)
 
-if [ "$answer" = "yes" ]; then
-   echo "hmmmm gooood yess you are happy"
+if [ "$day" = "Saturday" ] || [ "$day" = "Sunday" ]; then
+   echo "It’s the weekend!"
 else
-   echo "Still Smile c:"
+   echo "It’s a weekday!"
 fi
+
 
 # here are the other string comparison operators
 # != , -n (not an empty string) , -z (an empty string)
