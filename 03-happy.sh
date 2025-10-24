@@ -1,3 +1,4 @@
+
 #!/bin/sh
 
 echo "You are happy?"
@@ -14,3 +15,13 @@ fi
 
 # exercise: write a script that prints whether today is
 # the weekend or not
+
+day=$(date +%A)
+
+if [ "$day" = "Saturday" ] || [ "$day" = "Sunday" ]; then 
+   echo "It's the weekend!"
+else
+   echo "It's a weekday - stay strong!"
+fi 
+
+
