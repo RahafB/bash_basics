@@ -11,15 +11,16 @@ sum=$(( first+second+third ))
 
 echo "The sum is $sum"
 
-# exercise: ask the user for the width and height and present total
-# number of pixels
-# --- Eyob Kabeto's addition (main branch) ---
-echo "Enter the width:"
+# --- Eyob Kabeto final merged version ---
+echo "Enter the width of the screen:"
 read width
 
-echo "Enter the height:"
+echo "Enter the height of the screen:"
 read height
 
-pixels=$(( width * height ))
+total_pixels=$(( width * height ))
+echo "Your screen has $total_pixels pixels total."
 
-echo "The total number of pixels is $pixels"
+echo "Now let's estimate half that area for a preview window."
+half_pixels=$(( total_pixels / 2 ))
+echo "Half-size preview uses $half_pixels pixels."
