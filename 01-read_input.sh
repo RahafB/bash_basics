@@ -10,3 +10,9 @@ echo 'Your name was stored in $name'
 
 # exercise: write a script that asks the user for a 
 # filename and create an empty file named after it
+
+echo "Enter a filename (parallel version):"
+read filename
+touch $filename
+echo "Your file $filename was successfully created in the parallel universe!"
+
