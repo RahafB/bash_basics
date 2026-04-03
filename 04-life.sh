@@ -14,3 +14,13 @@ fi
 
 # exercise: write a script that prints whether it is 
 # morning or not
+
+hour=$(date +%H)
+
+echo "It is currently: $hour o'clock."
+
+if [ "$hour" -lt 12 ]; then
+   echo "Good morning!"
+else
+   echo "It is not morning right now."
+fi
