@@ -15,3 +15,19 @@ done
 
 # exercise: Loop over some type of files and use the 
 # "grep" UNIX command to find snippets of strings in them.
+echo "Counting finished!"
+
+# Backward counting
+for i in {10..1}
+do
+    echo "Backward: $i"
+done
+
+# New feature: count even
+for i in {1..10}
+do
+    if (( i % 2 == 0 ))
+    then 
+        echo "Even: $i"
+    fi
+done
