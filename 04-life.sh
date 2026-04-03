@@ -21,4 +21,3 @@ if [ "$now" -lt 12 ]; then
 else
   echo "It is not morning"
 fi
-
