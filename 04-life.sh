@@ -14,3 +14,10 @@ fi
 
 # exercise: write a script that prints whether it is 
 # morning or not
+MDay=$(date +%H)
+
+if [ "$MDay" -lt 12 ]; then
+   echo "It is morning"
+else
+   echo "It is not morning"
+fi
