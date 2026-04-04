@@ -3,6 +3,8 @@
 echo "You are happy?"
 read answer
 
+echo $RANDOM
+
 if [ "$answer" = "yes" ]; then
    echo "hmmmm gooood yess you are happy"
 else
