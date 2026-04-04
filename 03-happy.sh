@@ -3,12 +3,15 @@
 echo "You are happy?"
 read answer
 
+echo $RANDOM
+
 if [ "$answer" = "yes" ]; then
    echo "hmmmm gooood yess you are happy"
 else
    echo "Still Smile c:"
 fi
 
+echo $RANDOM
 # here are the other string comparison operators
 # != , -n (not an empty string) , -z (an empty string)
 
