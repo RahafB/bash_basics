@@ -6,7 +6,10 @@ read answer
 if [ "$answer" = "yes" ]; then
    echo "hmmmm gooood yess you are happy"
 else
-   echo "Still Smile c:"
+
+   echo "Main says smile!!!"
+   echo "Don't forget to smile!!!"
+
 fi
 
 # here are the other string comparison operators
@@ -14,3 +17,10 @@ fi
 
 # exercise: write a script that prints whether today is
 # the weekend or not
+day=$(date +%A)
+
+if [ "$day" = "Saturday" ] || [ "$day" = "Sunday" ]; then
+    echo "It's the weekend!"
+else
+    echo "It's a weekday."
+fi
