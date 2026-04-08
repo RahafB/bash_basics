@@ -20,5 +20,12 @@ while [ $count -ge 0 ]; do
 
 done
 
-# exercise: implement another counting song (such as 12 days of Christmas) 
+# exercise: implement another counting song (such as 12 days of Christmas)
 # using loops and if statements.
+echo "Now let's do a countdown!"
+
+count2=3
+while [ $count2 -gt 0 ]; do
+  echo "$count2 days until deliverable is due"
+  ((count2 = count2 - 1))
+done
