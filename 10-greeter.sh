@@ -15,7 +15,7 @@ function weekday_greet
 
 echo "Please enter your name"
 read name
-
+echo "This line was added by Camilo on the new-feature branch"
 day=$(date | cut -d' ' -f1)  # you can use this form instead of backticks
 
 if [ $day = "Sat" ] || [ $day = "Sun" ]; then
