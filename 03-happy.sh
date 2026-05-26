@@ -14,3 +14,5 @@ fi
 
 # exercise: write a script that prints whether today is
 # the weekend or not
+
+echo "This is the PARALLEL universe version."
