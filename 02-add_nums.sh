@@ -15,9 +15,9 @@ echo "The sum is $sum"
 # number of pixels
 echo "What is the width of your monitor?"
 read width
-echo "What is the length of your monitor?"
+echo "What is the length of the tv?"
 read length
 
-product=$((width*length))
+result=$((width*length))
 
-echo "Your tv has $result pixels!"
+echo "Your thing has $result pixels!"
