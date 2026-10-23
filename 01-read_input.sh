@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-echo "Welcome to my MAIN branch, $name"
-=======
-echo "Welcome to my PARALLEL branch, $name"
->>>>>>> parallel-universe
+echo "Welcome from my MAIN and PARALLEL branches, $name"
