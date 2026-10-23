@@ -284,3 +284,5 @@ netstat -nlp
 
 # http://explainshell.com/explain?cmd=iptables+-t+nat+-A+PREROUTING+-p+tcp+--dport+80+-j+REDIRECT+--to-port+8080
 iptables -t nat -A PREROUTING -p tcp --dport 80 -j REDIRECT --to-port 8080
+
+# Mckenzie Patterson- I have read and edited this! :)
