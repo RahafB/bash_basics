@@ -13,3 +13,11 @@ echo "The sum is $sum"
 
 # exercise: ask the user for the width and height and present total
 # number of pixels
+echo "Enter the width of your monitor"
+read width
+echo "Enter the height of your monitor"
+read height
+
+product=$((width*height))
+
+echo "Your monitor has $product pixels"
