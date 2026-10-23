@@ -10,3 +10,13 @@ echo 'Your name was stored in $name'
 
 # exercise: write a script that asks the user for a 
 # filename and create an empty file named after it
+#!/bin/bash
+
+echo "Welcome to Colson's file creator!"
+echo "Please enter a filename:"
+
+read filename
+
+touch "$filename"
+
+echo "Success! Your file $filename has been created!"
