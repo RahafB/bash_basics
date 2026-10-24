@@ -14,3 +14,13 @@ fi
 
 # exercise: write a script that prints whether it is 
 # morning or not
+
+echo "What time is it right now"
+read morning
+
+if [ "$morning" -eq 600 ]; then
+	echo "Rise and shine~"
+else
+	echo "NOOOO!!! I MISSED THE SUN!!!"
+fi
+
